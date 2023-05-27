@@ -1,0 +1,71 @@
+https://www.youtube.com/watch?v=3dSkc-DIM74    1:28:50
+https://github.com/fazt/nodejs-mysql-restapi  
+nodejs-mysql-restapi  
+
+-- Genera el package.json
+PS C:\Dev\JS\02API> npm init -y
+
+-- Instalar paqueterias
+PS C:\Dev\JS\02API> npm i express
+
+-- version de nodejs
+PS C:\Dev\JS\02API> node --version
+v16.13.0   v16.17.0 segun video
+
+package.json
+  "type": "module",
+
+-- Instalar nodemon en devDepencies
+PS C:\Dev\JS\02API> npm i nodemon -D
+
+-- package.json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+
+-- activar la aplicacion
+PS C:\Dev\JS\02API> npm run dev  
+
+-- Extensiones  (post, delete, put,  get)
+thunder client
+
+-- conexion con mysql 20:28
+PS C:\Dev\JS\02API> npm i mysql2
+
+-- Routes 32:40
+
+-- Controllers 40.13
+
+-- post employees 45:50
+
+-- get employees  57:00
+
+-- get employee con ID 1:00:25
+
+-- delete employee 1:09:35
+
+-- path employee 1:15:00
+
+01:28:51 Manejo de errores
+google
+  express promise router
+
+01:36:37 Not Found route (next)
+
+01:38:48 Varia bles de entorno
+PS C:\Dev\JS\02API> npm i dotenv
+
+01:50:33 Despliegue en Railway
+Desplegar nuestra aplicacion
+Crear un repositorio de git
+crear .gitignore
+PS C:\Dev\JS\02API> git init
+
+
+
+
+
+
