@@ -62,8 +62,19 @@ PS C:\Dev\JS\02API> npm i dotenv
 Desplegar nuestra aplicacion
 Crear un repositorio de git
 crear .gitignore
-PS C:\Dev\JS\02API> git init
 
+PS C:\Dev\JS\02API> git init
+PS C:\Dev\JS\02API> git add .
+PS C:\Dev\JS\02API> git commit -m "first commit"
+github: crear un repositorio   02API
+PS C:\Dev\JS\02API> git remote add origin https://github.com/carlosherrerah/02API.git
+PS C:\Dev\JS\02API> git push origin master
+Listo: ya quedo en github
+
+"scripts": {
+    "dev": "nodemon src/index.js",
+    "start":  "node src/index.js"
+  },
 
 
 
